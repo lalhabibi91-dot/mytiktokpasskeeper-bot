@@ -1,0 +1,19 @@
+{
+  "name": "secure-license-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure username/password expiry server with Telegram admin bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
